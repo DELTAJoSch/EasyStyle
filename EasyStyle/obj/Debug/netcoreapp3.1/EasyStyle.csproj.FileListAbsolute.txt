@@ -1,0 +1,16 @@
+H:\Dokumente\C# Libraries\EasyStyle\EasyStyle\bin\Debug\netcoreapp3.1\EasyStyle.deps.json
+H:\Dokumente\C# Libraries\EasyStyle\EasyStyle\bin\Debug\netcoreapp3.1\EasyStyle.dll
+H:\Dokumente\C# Libraries\EasyStyle\EasyStyle\bin\Debug\netcoreapp3.1\EasyStyle.pdb
+H:\Dokumente\C# Libraries\EasyStyle\EasyStyle\obj\Debug\netcoreapp3.1\EasyStyle.csprojAssemblyReference.cache
+H:\Dokumente\C# Libraries\EasyStyle\EasyStyle\obj\Debug\netcoreapp3.1\EasyStyle_MarkupCompile.cache
+H:\Dokumente\C# Libraries\EasyStyle\EasyStyle\obj\Debug\netcoreapp3.1\EasyStyle_MarkupCompile.lref
+H:\Dokumente\C# Libraries\EasyStyle\EasyStyle\obj\Debug\netcoreapp3.1\Colors.baml
+H:\Dokumente\C# Libraries\EasyStyle\EasyStyle\obj\Debug\netcoreapp3.1\ControlStyle.baml
+H:\Dokumente\C# Libraries\EasyStyle\EasyStyle\obj\Debug\netcoreapp3.1\EasyStyle.g.resources
+H:\Dokumente\C# Libraries\EasyStyle\EasyStyle\obj\Debug\netcoreapp3.1\EasyStyle.AssemblyInfoInputs.cache
+H:\Dokumente\C# Libraries\EasyStyle\EasyStyle\obj\Debug\netcoreapp3.1\EasyStyle.AssemblyInfo.cs
+H:\Dokumente\C# Libraries\EasyStyle\EasyStyle\obj\Debug\netcoreapp3.1\EasyStyle.dll
+H:\Dokumente\C# Libraries\EasyStyle\EasyStyle\obj\Debug\netcoreapp3.1\EasyStyle.pdb
+H:\Dokumente\C# Libraries\EasyStyle\EasyStyle\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+H:\Dokumente\C# Libraries\EasyStyle\EasyStyle\obj\Debug\netcoreapp3.1\HeaderControl.g.cs
+H:\Dokumente\C# Libraries\EasyStyle\EasyStyle\obj\Debug\netcoreapp3.1\HeaderControl.baml

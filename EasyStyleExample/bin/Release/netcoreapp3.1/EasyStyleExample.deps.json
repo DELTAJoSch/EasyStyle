@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "EasyStyleExample/1.0.0": {
+        "dependencies": {
+          "EasyStyle": "1.0.0"
+        },
+        "runtime": {
+          "EasyStyleExample.dll": {}
+        }
+      },
+      "EasyStyle/1.0.0": {
+        "runtime": {
+          "EasyStyle.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EasyStyleExample/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EasyStyle/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
