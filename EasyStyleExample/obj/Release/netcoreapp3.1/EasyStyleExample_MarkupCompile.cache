@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-H:\Dokumente\C# Libraries\EasyStyle\EasyStyleExample\obj\Release\netcoreapp3.1\
+D:\Dokumente\C# Libraries\EasyStyle\EasyStyleExample\obj\Release\netcoreapp3.1\
 EasyStyleExample
 none
 false
 TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1
-H:\Dokumente\C# Libraries\EasyStyle\EasyStyleExample\App.xaml
-11151548125
+D:\Dokumente\C# Libraries\EasyStyle\EasyStyleExample\App.xaml
+2151653779
 
-4165208318
-193-1852610662
-MainWindow.xaml;
+5-1434962901
+193-378117154
+ControlsWindow.xaml;MainWindow.xaml;
 
 False
 

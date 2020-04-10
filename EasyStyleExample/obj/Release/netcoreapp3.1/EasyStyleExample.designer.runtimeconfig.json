@@ -6,9 +6,8 @@
       "version": "3.1.0"
     },
     "additionalProbingPaths": [
-      "C:\\Users\\Deltazocker\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Deltazocker\\.nuget\\packages",
-      "C:\\Microsoft\\Xamarin\\NuGet",
+      "C:\\Users\\johan\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\johan\\.nuget\\packages",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "configProperties": {
