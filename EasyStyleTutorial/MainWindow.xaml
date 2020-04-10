@@ -1,0 +1,29 @@
+﻿<easystyle:WindowBase
+        xmlns:easystyle="clr-namespace:EasyStyle;assembly=EasyStyle"
+        x:Class="EasyStyleTutorial.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EasyStyleTutorial"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <easystyle:WindowBase.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/easystyle;component/Colors.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/easystyle;component/ControlStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </easystyle:WindowBase.Resources>
+    <Grid Background="{StaticResource GrayDarkestBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="500*"/>
+        </Grid.RowDefinitions>
+        <easystyle:HeaderControl TitleText="My first App!" DarkMode="True"/>
+
+        <TextBlock Text="Click me!" Grid.Row="1" Foreground="{StaticResource GrayLightestBrush}" TextAlignment="Center" VerticalAlignment="Center" FontSize="50"/>
+        <Button x:Name="MessageButton" Click="MessageButton_Click" Grid.Row="1" Background="{StaticResource BlueLightLightBrush}"/>
+    </Grid>
+</easystyle:WindowBase>

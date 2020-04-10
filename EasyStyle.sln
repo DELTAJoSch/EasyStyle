@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyStyle", "EasyStyle\EasyStyle.csproj", "{3AE33039-92BF-4EE0-9371-695AEFBF22EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyStyle", "EasyStyle\EasyStyle.csproj", "{3AE33039-92BF-4EE0-9371-695AEFBF22EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyStyleExample", "EasyStyleExample\EasyStyleExample.csproj", "{5C31870D-1543-4E02-A6FB-42DF086F20FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyStyleExample", "EasyStyleExample\EasyStyleExample.csproj", "{5C31870D-1543-4E02-A6FB-42DF086F20FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyStyleTutorial", "EasyStyleTutorial\EasyStyleTutorial.csproj", "{D610CC37-F2D9-4BD5-822B-70DDD74003A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5C31870D-1543-4E02-A6FB-42DF086F20FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C31870D-1543-4E02-A6FB-42DF086F20FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C31870D-1543-4E02-A6FB-42DF086F20FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D610CC37-F2D9-4BD5-822B-70DDD74003A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D610CC37-F2D9-4BD5-822B-70DDD74003A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D610CC37-F2D9-4BD5-822B-70DDD74003A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D610CC37-F2D9-4BD5-822B-70DDD74003A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

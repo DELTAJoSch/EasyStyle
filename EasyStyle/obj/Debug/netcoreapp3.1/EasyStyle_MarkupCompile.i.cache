@@ -4,7 +4,7 @@
 library
 C#
 .cs
-H:\Dokumente\C# Libraries\EasyStyle\EasyStyle\obj\Debug\netcoreapp3.1\
+D:\Dokumente\C# Libraries\EasyStyle\EasyStyle\obj\Debug\netcoreapp3.1\
 EasyStyle
 none
 false
@@ -12,7 +12,7 @@ TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 
 3-434090122
 
-61095847583
+6-1273938256
 1921654412462
 Colors.xaml;ControlStyle.xaml;HeaderControl.xaml;
 
