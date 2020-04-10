@@ -59,6 +59,10 @@ namespace EasyStyleExample
             }
         }
 
-
+        private void OpenElementsWindow_Click(object sender, RoutedEventArgs e)
+        {
+            Window controls = new ControlsWindow();
+            controls.Show();
+        }
     }
 }

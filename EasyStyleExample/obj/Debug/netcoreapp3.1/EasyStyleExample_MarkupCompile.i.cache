@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 D:\Dokumente\C# Libraries\EasyStyle\EasyStyleExample\App.xaml
-11151548125
+2151653779
 
-5-170219581
+6-1770390800
 193238427765
-MainWindow.xaml;
+ControlsWindow.xaml;MainWindow.xaml;
 
 False
 

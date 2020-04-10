@@ -100,8 +100,9 @@
                            BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="1"
                            Padding="2"
                           Grid.Row="1" Grid.Column="1"
-                           Width="{TemplateBinding Height}"
-                           Height="{TemplateBinding Width}"
+                           Width="{TemplateBinding Width}"
+                           MaxWidth="15"
+                           Height="{TemplateBinding Height}"
                            Background="{TemplateBinding Background}"
                            HorizontalAlignment="Center"
                            VerticalAlignment="Stretch" />
@@ -110,8 +111,8 @@
                               HorizontalAlignment="Center"
                               VerticalAlignment="Stretch"
                               Grid.Row="1" Grid.Column="1"
-                              Width="{TemplateBinding Height}"
-                              Height="{TemplateBinding Width}">
+                              Width="{TemplateBinding Width}"
+                              Height="{TemplateBinding Height}">
                 <Track.Thumb>
                     <!-- This section implements the already styled thumb with the key SliderThumb.
                                 This name is set because thumbs are also used in scroll bars - we do not want this style there -->

@@ -18,6 +18,7 @@
     <easystyle:WindowBase.ContextMenu>
         <ContextMenu>
             <MenuItem Header="Toggle Dark Mode" Name="ToogleDarkMode" Click="Button_Click"/>
+            <MenuItem Header="Open Elements Window" Name="OpenElementsWindow" Click="OpenElementsWindow_Click"/>
         </ContextMenu>
     </easystyle:WindowBase.ContextMenu>
     <Grid>

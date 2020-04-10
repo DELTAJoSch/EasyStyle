@@ -1,0 +1,42 @@
+﻿<easystyle:WindowBase
+        x:Class="EasyStyleExample.ControlsWindow"
+        xmlns:easystyle="clr-namespace:EasyStyle;assembly=EasyStyle"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EasyStyleExample"
+        mc:Ignorable="d" Height="450" Width="800">
+    <easystyle:WindowBase.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/easystyle;component/Colors.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/easystyle;component/ControlStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </easystyle:WindowBase.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="500*"/>
+        </Grid.RowDefinitions>
+        <easystyle:HeaderControl Grid.Row="0" TitleText="EasyStyle Controls Viewer" Name="menu"/>
+        <Grid x:Name="ContentGrid" Grid.Row="1" Height="auto" Width="auto">
+            <ScrollViewer Background="{Binding Path=ScrollViewerBackground}" Foreground="{Binding Path=ScrollViewerForeground}" BorderBrush="{StaticResource BlueBrush}">
+                <StackPanel>
+                    <Grid>
+                        <TextBlock Text="Button" VerticalAlignment="Center" TextAlignment="Center" FontSize="20"/>
+                        <Button Width="auto" Height="50" Background="{StaticResource AccentGreenBrush}"/>
+                    </Grid>
+                    <Slider Foreground="{StaticResource BlueMediumBrush}" Background="{StaticResource BlueDeepLightBrush}" BorderBrush="{StaticResource BlueMediumDarkBrush}"/>
+                    <Slider Orientation="Vertical" Height="250" Width="auto" Foreground="{StaticResource BlueMediumBrush}" Background="{StaticResource BlueDeepLightBrush}" BorderBrush="{StaticResource BlueMediumDarkBrush}"/>
+                    <TextBlock Text="TextBlock" FontSize="30" Background="{StaticResource BlueLightLightBrush}" Foreground="{StaticResource GrayLightestBrush}"/>
+                    <CheckBox Foreground="{StaticResource BlueDarkestBrush}" Background="{StaticResource BlueMediumLightBrush}" BorderBrush="{StaticResource BlueMediumBrush}" HorizontalAlignment="Center"/>
+                    <CheckBox Foreground="{StaticResource BlueDarkestBrush}" Background="{StaticResource BlueMediumLightBrush}" BorderBrush="{StaticResource BlueMediumBrush}" HorizontalAlignment="Center" Style="{StaticResource RadioCheckBox}" Height="15" Width="15"/>
+                    <TextBox FontSize="30" Background="{StaticResource BlueLightestBrush}" Foreground="{StaticResource GrayMediumDarkBrush}" BorderThickness="2" BorderBrush="{StaticResource BlueDarkestBrush}" Text="TextBox"/>
+                    <TextBox FontSize="30" Background="{StaticResource BlueLightestBrush}" Foreground="{StaticResource GrayMediumDarkBrush}" BorderThickness="2" BorderBrush="{StaticResource BlueDarkestBrush}" Style="{StaticResource TextBoxEdged}" Text="TextBoxEdged"/>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</easystyle:WindowBase>
