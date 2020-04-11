@@ -11,8 +11,11 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("EasyStyle")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("DeltaJoSch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright 2020, DeltaJoSch")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Easy-to-use styling framework for WPF - see more at https://github.com/DELTAJoSch" +
+    "/EasyStyle")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("EasyStyle")]

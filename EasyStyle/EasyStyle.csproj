@@ -3,6 +3,24 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
+    <Authors>DeltaJoSch</Authors>
+    <Company />
+    <Description>Easy-to-use styling framework for WPF - see more at https://github.com/DELTAJoSch/EasyStyle</Description>
+    <Copyright>Copyright 2020, DeltaJoSch</Copyright>
+    <PackageLicenseFile>license.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/DELTAJoSch/EasyStyle/wiki</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/DELTAJoSch/EasyStyle</RepositoryUrl>
+    <PackageTags>WPF</PackageTags>
+    <PackageReleaseNotes>Release V1</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\license.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

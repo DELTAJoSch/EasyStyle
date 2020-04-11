@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EasyStyle</id>
+    <version>1.0.0</version>
+    <authors>DeltaJoSch</authors>
+    <owners>DeltaJoSch</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">license.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>https://github.com/DELTAJoSch/EasyStyle/wiki</projectUrl>
+    <description>Easy-to-use styling framework for WPF - see more at https://github.com/DELTAJoSch/EasyStyle</description>
+    <releaseNotes>Release V1</releaseNotes>
+    <copyright>Copyright 2020, DeltaJoSch</copyright>
+    <tags>WPF</tags>
+    <repository url="https://github.com/DELTAJoSch/EasyStyle" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\Dokumente\C# Libraries\EasyStyle\EasyStyle\bin\Debug\netcoreapp3.1\EasyStyle.dll" target="lib\netcoreapp3.1\EasyStyle.dll" />
+    <file src="D:\Dokumente\C# Libraries\EasyStyle\license.txt" target="license.txt" />
+  </files>
+</package>
